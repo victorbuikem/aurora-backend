@@ -9,7 +9,7 @@ import "./AuroraToken.sol";
  * @dev Manages user interactions, token purchases, creator registrations,
  *      content uploads, donations, and withdrawals.
  */
-contract PlatformContract is Ownable {
+contract CreatorPlatformContract is Ownable {
     AuroraToken public auroraToken;
     uint256 public tokenPrice;
 
